@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3DA13FB71F6ED7BE0055F314 /* Classroom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classroom.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3D918FA11F69E71800F59303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9417391F69E56800930CB2 = {
+			isa = PBXGroup;
+			children = (
+				3DA13FB71F6ED7BE0055F314 /* Classroom.playground */,
+				3D918FA11F69E71800F59303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		3D94173A1F69E56800930CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 3D94173D1F69E56800930CB2 /* Build configuration list for PBXProject "RxClassroom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D9417391F69E56800930CB2;
+			productRefGroup = 3D918FA11F69E71800F59303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3D94173E1F69E56800930CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3D94173F1F69E56800930CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D94173D1F69E56800930CB2 /* Build configuration list for PBXProject "RxClassroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D94173E1F69E56800930CB2 /* Debug */,
+				3D94173F1F69E56800930CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D94173A1F69E56800930CB2 /* Project object */;
+}

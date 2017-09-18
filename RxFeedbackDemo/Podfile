@@ -1,0 +1,9 @@
+platform :ios, '10.0'
+
+target 'RxFeedbackDemo' do
+	use_frameworks!
+
+	pod "RxSwift", "~> 3.6.1"
+	pod "RxCocoa", "~> 3.6.1"
+	pod "RxFeedback"
+end
