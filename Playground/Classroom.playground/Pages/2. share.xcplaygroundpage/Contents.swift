@@ -70,7 +70,7 @@ example(of: "shareReplayLatestWhileConnected()", run: false) {
 // ------------------------------------------------------------------------------------
 // 4. share(replay:scope:)
 // ------------------------------------------------------------------------------------
-example(of: "share(replay:scope:)", run: false) {
+example(of: "share(replay:scope:)", run: true) {
 	let observable = Observable<Int>.timer(0, period: 1, scheduler: MainScheduler.instance)
 		.share(replay: 3, scope: .whileConnected)
 

@@ -74,14 +74,14 @@
 		3D8FB31F1F6FA88900A4D2F6 /* RxFeedbackDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3D8FB3201F6FA88900A4D2F6 /* AppDelegate.swift */,
+				3D8FB3321F6FAA9A00A4D2F6 /* PlaybackState.swift */,
+				3D8FB3341F6FAAE000A4D2F6 /* PlaybackCommand.swift */,
 				3D8FB3221F6FA88900A4D2F6 /* ViewController.swift */,
+				3D8FB3201F6FA88900A4D2F6 /* AppDelegate.swift */,
 				3D8FB3241F6FA88900A4D2F6 /* Main.storyboard */,
 				3D8FB3271F6FA88900A4D2F6 /* Assets.xcassets */,
 				3D8FB3291F6FA88900A4D2F6 /* LaunchScreen.storyboard */,
 				3D8FB32C1F6FA88900A4D2F6 /* Info.plist */,
-				3D8FB3321F6FAA9A00A4D2F6 /* PlaybackState.swift */,
-				3D8FB3341F6FAAE000A4D2F6 /* PlaybackCommand.swift */,
 			);
 			path = RxFeedbackDemo;
 			sourceTree = "<group>";

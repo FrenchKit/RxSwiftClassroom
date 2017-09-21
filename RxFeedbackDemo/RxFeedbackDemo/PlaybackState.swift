@@ -11,13 +11,13 @@ import Foundation
 //
 // PlaybackState: the possible states of our player state machine
 //
-enum PlaybackState: Equatable {
+enum PlaybackState {
 	case stopped
 	case playing(Int,Date)		// media index, end date
 	case paused(Int,Double)		// media index, remaining seconds
 }
 
-extension PlaybackState {
+extension PlaybackState: Equatable {
 	var isPaused: Bool {
 		if case .paused(_,_) = self { return true }
 		return false

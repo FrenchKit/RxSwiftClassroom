@@ -97,7 +97,7 @@ class ViewController: UIViewController {
 				bindUI,
 
 				// Playback command generator that runs playback and loops on playlists
-				generateCommandsFromPlaybackState
+				generateCommandsFromPlaybackStates
 			]
 			)
 			.distinctUntilChanged()
@@ -127,8 +127,10 @@ class ViewController: UIViewController {
 		}
 	}
 
-	func generateCommandsFromPlaybackState(states: ObservableSchedulerContext<PlaybackState>) -> Observable<PlaybackCommand> {
-		return states.source.flatMapLatest { [weak self] (state: PlaybackState) -> Observable<PlaybackCommand> in
+	func generateCommandsFromPlaybackStates(states: ObservableSchedulerContext<PlaybackState>) -> Observable<PlaybackCommand> {
+		return states.source.flatMapLatest {
+			[weak self] (state: PlaybackState) -> Observable<PlaybackCommand> in
+			
 			guard let this = self else { return .empty() }
 
 			switch state {
