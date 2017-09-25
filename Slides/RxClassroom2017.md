@@ -21,7 +21,7 @@ Co-author, RxSwift book from Ray Wenderlich
 ## Prepare for the class
 
 * Clone `https://github.com/FrenchKit/RxSwiftClassroom`
-* Open `Playground/Playground.xcworkspace`
+* Open `Playground/RxClassroom.xcworkspace`
 * Build `RxSwift-macOS` scheme
 
 ---
@@ -60,7 +60,7 @@ When you only want to see the freshest results
 ---
 ### Expensive observables
 
-* Computation (i.e. preparing thuumbnails)
+* Computation (i.e. preparing thumbnails)
 * Network requests
 * Side effects
 
