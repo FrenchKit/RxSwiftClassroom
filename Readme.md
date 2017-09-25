@@ -19,4 +19,7 @@ Your hosts for this classroom are:
 
 [Florent Pillet](mailto:fpillet@gmail.com), co-author or the [RwSwift book](https://store.raywenderlich.com/products/rxswift) from Ray Wenderlich. I'm [@fpillet](https://twitter.com/fpillet) on Twitter
 
-Jérémie Girault, contact info TBA.
+Many thanks to the support mates:
+
+Jérémie Girault ([@kamidude](https://twitter.com/kamidude) on Twitter)
+Hugues Bernet-Rollande ([@rompelstilchen](https://twitter.com/rompelstilchen) on Twitter)
